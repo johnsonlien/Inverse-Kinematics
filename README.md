@@ -1,5 +1,7 @@
 # CSCI 520 Homework 3: Inverse-Kinematics
 
+External libraries "Eigen" and ADOL-C were used to perform any linear algebraic equations. 
+
 This program implements forward and inverse kinematics to perform an interactive model that can be dragged and folded. This assignment is used to implement forward and inverse kinematics using two methods to calculate inverse kinematics:
 1. Pseudo-Inverse
 2. Damped Least Squares (a.k.a Tikhonov Regularization)
